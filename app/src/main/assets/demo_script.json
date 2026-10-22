@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "name": "设置App冒烟测试",
+  "targetPackage": "com.android.settings",
+  "repeat": 1,
+  "steps": [
+    { "action": "launchApp", "packageName": "com.android.settings" },
+    { "action": "waitFor", "target": { "textContains": "设置" }, "timeout": 10 },
+    { "action": "delay", "seconds": 1 },
+    { "action": "back" },
+    { "action": "delay", "seconds": 1 }
+  ]
+}

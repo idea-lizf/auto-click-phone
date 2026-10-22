@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">AutoClickPhone</string>
+    <string name="accessibility_service_description">AutoClickPhone 自动点击服务。用于执行自动化脚本中的点击、滑动、等待等操作。</string>
+
+    <!-- 通知渠道 -->
+    <string name="notification_channel_id">engine_foreground</string>
+    <string name="notification_channel_name">脚本运行</string>
+    <string name="notification_title_running">AutoClickPhone 运行中</string>
+    <string name="notification_text_idle">点击停止脚本</string>
+
+    <!-- UI -->
+    <string name="title_scripts">脚本列表</string>
+    <string name="title_runlog">运行日志</string>
+    <string name="title_setup">权限设置</string>
+    <string name="action_run">运行</string>
+    <string name="action_stop">停止</string>
+    <string name="action_import">导入脚本</string>
+    <string name="action_export">导出</string>
+    <string name="action_delete">删除</string>
+    <string name="permission_accessibility">无障碍服务</string>
+    <string name="permission_overlay">悬浮窗权限</string>
+    <string name="permission_battery">电池优化白名单</string>
+    <string name="permission_granted">已开启</string>
+    <string name="permission_not_granted">未开启，点击设置</string>
+    <string name="empty_scripts">暂无脚本，点击右上角导入 demo 脚本</string>
+    <string name="empty_runlog">暂无运行日志</string>
+    <string name="status_running">运行中</string>
+    <string name="status_success">成功</string>
+    <string name="status_failed">失败</string>
+    <string name="status_canceled">已取消</string>
+</resources>
